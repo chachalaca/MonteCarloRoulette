@@ -40,8 +40,9 @@ param_str_short = str(init_bet)+"-"+str(min_bet)
 
 def main():
 
-    #run_simulations()
+    run_simulations()
     make_visualizations()
+    print_stats()
 
 
 def run_simulations():
