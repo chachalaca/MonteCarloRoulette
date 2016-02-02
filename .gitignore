@@ -1,5 +1,5 @@
 .idea
-data/*.*
-figures/*.*
-figures/probabilities/*.*
-figures/strategies/*.*
+__pycache__
+*.png
+*.pkl
+report
