@@ -41,7 +41,7 @@ class Labouchere(Strategy):
         return history
 
     def play_for(self, goal, all_in=True):
-        bet = self.init_bet
+        bet = self.init_series[0]+self.init_series[-1]
         cash = self.cash
 
         series = self.init_series
